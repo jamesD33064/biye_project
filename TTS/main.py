@@ -2,8 +2,8 @@ import pyttsx3
 
 def TexttoSppech(content):
     engine = pyttsx3.init()
-    # engine.say(content)
-    engine.save_to_file(content, 'speech.wav')
+    engine.say(content)
+    # engine.save_to_file(content, 'speech.wav')
     engine.runAndWait()
 
 if __name__=="__main__":
